@@ -16,4 +16,5 @@ source_directory = 'path/to/source/directory'
 destination_directory = 'path/to/destination/directory'
 extension = '.txt'
 
+# 실행
 move_files_with_extension(source_directory, destination_directory, extension)

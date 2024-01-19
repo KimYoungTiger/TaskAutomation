@@ -1,0 +1,8 @@
+selenium
+numpy
+pyautogui==0.9.54
+openpyxl
+opencv-python
+PyMuPDF
+PyPDF2
+pdf2image

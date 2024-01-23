@@ -30,7 +30,6 @@ def selenium_framework():
     except Exception as e:
         print(f"예외 발생: {e}")
         logging.error(f"일반 오류: {e}")
-        print()
 
     finally:
         driver.quit()

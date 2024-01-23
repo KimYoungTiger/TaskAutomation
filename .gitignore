@@ -45,3 +45,6 @@ Thumbs.db
 
 # 개인 API 키
 secret_key.txt
+
+# 특정 폴더
+module/test/

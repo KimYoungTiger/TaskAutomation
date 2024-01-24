@@ -10,3 +10,4 @@ onetimepass
 webdriver-manager
 logging
 subprocess
+pyperclip

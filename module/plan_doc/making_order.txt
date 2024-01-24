@@ -1,0 +1,8 @@
+[selenium] 파이썬 셀레늄 자주 사용하는 chrome webdriver 옵션
+[selenium] chrome webdriver 실험 버전 (add_experimental_option) 
+[selenium] webdriver option 자주 사용하는 옵션 조합1
+[selenium] webdriver option 자주 사용하는 옵션 조합2
+[selenium] webdriver option 자주 사용하는 옵션 조합3
+
+
+

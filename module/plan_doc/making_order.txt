@@ -4,5 +4,10 @@
 [selenium] webdriver option 자주 사용하는 옵션 조합2
 [selenium] webdriver option 자주 사용하는 옵션 조합3
 
+[python] 이미지 -> PDF 변환
+[python] Excel -> PDF 변환
+[python] 이미지 -> PDF 변환
+[python] 확장자명으로 파일 이동
+[python] 함수명 명명 규칙
 
 

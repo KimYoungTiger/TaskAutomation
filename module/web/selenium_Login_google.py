@@ -25,7 +25,7 @@ def selenium_Login_google(userId, userPassword, userQrCode=None):
         options.add_argument('--ignore-certificate-errors')
         options.add_argument('--disable-blink-features=AutomationControlled')
         options.add_experimental_option("detach", True)
-
+        
         service = Service(executable_path=ChromeDriverManager().install())
         driver = webdriver.Chrome(options=options, service=service)
 

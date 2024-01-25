@@ -2,7 +2,7 @@ from pdf2image import convert_from_path
 import fitz  # PyMuPDF
 import os
 
-def convert_pdf_to_image(pdf_path):
+def convert_pdf_to_image1(pdf_path):
 
     # PDF전체 페이지를 PNG로 변환
     pages = convert_from_path(pdf_path)
@@ -12,7 +12,7 @@ def convert_pdf_to_image(pdf_path):
         page.save(f'page_{i+1}.png', 'PNG')
 
 
-def convert_pdf_to_image(pdf_path, output_path=None):
+def convert_pdf_to_image2(pdf_path, output_path=None):
     doc = fitz.open(pdf_path)
     directory_path = os.path.dirname(pdf_path)
     file_name = os.path.basename(pdf_path).split('.')[0]
@@ -32,5 +32,5 @@ if __name__ == "__main__":
 
     full_file_path = f"C:\\Users\\{os.environ.get('USERNAME')}\\Desktop\\test.pdf"   # 파일의 위치를 포함한 전체 경로 입력
 
-    convert_pdf_to_image(full_file_path)
+    convert_pdf_to_image2(full_file_path)
 

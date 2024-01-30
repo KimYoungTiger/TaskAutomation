@@ -6,9 +6,7 @@ opencv-python
 PyMuPDF
 onetimepass
 webdriver-manager
-logging
-subprocess
 pyperclip
 PyPDF2
 slack_sdk
-speech_recognition
+SpeechRecognition

@@ -19,9 +19,7 @@ def selenium_Login_google(userId, userPassword, userQrCode=None):
     try:
         url = "https://accounts.google.com/"
         options = webdriver.ChromeOptions()
-
-        options.add_argument(
-            'user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36')
+        options.add_argument('user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36')
         options.add_argument('--ignore-certificate-errors')
         options.add_argument('--disable-blink-features=AutomationControlled')
         options.add_experimental_option("detach", True)
@@ -69,7 +67,7 @@ def selenium_Login_google(userId, userPassword, userQrCode=None):
 
 if __name__ == "__main__":
 
-    google_ID = ""
-    google_PASSWORD = ""
+    google_id = ""
+    google_pw = ""
 
-    selenium_Login_google(google_ID, google_PASSWORD)
+    selenium_Login_google(google_id, google_pw)
